@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="distancelimit"
+        android:title="Maximum distance (km)"
+        android:dialogTitle="Choose the maximum distance you want"
+        android:summary="Determine the maximum distance at which the street art will be proposed"
+        android:entries="@array/listDistance"
+        android:entryValues="@array/listDistance"
+        android:defaultValue="2"/>
+
+    <Preference
+        android:title="Credits"
+        android:key="creditButton"
+        android:summary="Discover the team behind this amazing app"/>
+</PreferenceScreen>

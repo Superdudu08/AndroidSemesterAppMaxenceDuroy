@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Street Art GO</string>
+    <string-array name="listDistance">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="opendrawer">Open the drawer !</string>
+    <string name="closedrawer">Close the drawer !</string>
+</resources>

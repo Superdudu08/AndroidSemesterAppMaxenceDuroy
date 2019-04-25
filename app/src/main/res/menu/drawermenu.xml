@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/addLocation"
+        android:title="Add a location to the database"
+        android:onClick="goToAddLocationActivity"/>
+    <item android:id="@+id/seeLocationList"
+        android:title="List of nearby street arts"
+        android:onClick="goToLocationListActivity"/>
+    <item android:id="@+id/seeVisitedLocationList"
+        android:title="List of visited street arts"
+        android:onClick="goToVisitedLocationActivity"/>
+</menu>

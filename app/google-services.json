@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "699259456197",
+    "firebase_url": "https://semesterapp.firebaseio.com",
+    "project_id": "semesterapp",
+    "storage_bucket": "semesterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699259456197:android:35e531c87222820a",
+        "android_client_info": {
+          "package_name": "com.example.androidappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699259456197-vc4ubv95gj70ssrjsgatkbghgjfe9qhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidappproject",
+            "certificate_hash": "24238c73a3869d2126f77c8d9578513db582cb31"
+          }
+        },
+        {
+          "client_id": "699259456197-s8stsrg2v4t4qrs12r9ivc80fo1h8kvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CVs2HfXy_JEXTQXWmQCvOLJDkai2EZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699259456197-s8stsrg2v4t4qrs12r9ivc80fo1h8kvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
