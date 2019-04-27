@@ -98,7 +98,10 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     lastUserMarker.remove();
                 }
                 MarkerOptions newUserPos = new MarkerOptions().position(userLoc).title("You");
-                lastUserMarker = gMap.addMarker(newUserPos);
+                //Sometimes the map wasn't ready yet when I tried to add the marker
+                if(gMap != null) {
+                    lastUserMarker = gMap.addMarker(newUserPos);
+                }
 
                 //Update the distanceTextView
                 Location userLocation = new Location("");
