@@ -169,29 +169,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onDestroy();
     }
 
-    public void checkIfVisitedAlready() {
-        SQLiteDatabase readabledb = visitedLocationDBHelper.getReadableDatabase();
-        String[] projection = {
-                VisitedLocationContract.VisitedLocationEntry.COLUMN_LOCATION_TITLE
-        };
-        String[] selectWhere = {titleTextView.getText().toString()};
-        Cursor cursor = readabledb.query(
-                VisitedLocationContract.VisitedLocationEntry.TABLE_NAME,
-                projection,
-                VisitedLocationContract.VisitedLocationEntry.COLUMN_LOCATION_TITLE + "=?",
-                selectWhere,
-                null,
-                null,
-                null);
-
-        if(cursor.getCount() == 0){
-            alreadyVisited = false;
-        }
-        else {
-            alreadyVisited = true;
-            Toast.makeText(this, "You already visited this street art, consider picking another.", Toast.LENGTH_LONG).show();
-        }
-    }
 
     private class CheckIfVisitedTask extends AsyncTask<Void,Void,Boolean>{
 
